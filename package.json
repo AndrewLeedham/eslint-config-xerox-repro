@@ -10,7 +10,8 @@
     "eslint-plugin-jsdoc": "^8.0.1"
   },
   "scripts": {
-    "lint": "eslint ./src --ext .ts"
+    "lint:ts": "eslint ./src --ext .ts --config ./.eslintrc.ts.json",
+    "lint:js": "eslint ./src --ext .js --config ./.eslintrc.js.json"
   },
   "dependencies": {
     "typescript": "^3.5.1"
